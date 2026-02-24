@@ -1,0 +1,71 @@
+# ===== AURUM28 CORE (PUBLIC) SAFE .gitignore =====
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+*.log
+
+# Build artifacts
+build/
+build-*/
+out/
+dist/
+bin/
+obj/
+*.o
+*.obj
+*.a
+*.la
+*.lo
+*.so
+*.dll
+*.dylib
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.app
+*.dmg
+
+# Autotools generated
+autom4te.cache/
+**/.deps/
+**/.libs/
+aclocal.m4
+configure
+configure~
+config.log
+config.status
+libtool
+Makefile
+Makefile.in
+
+# Depends system (never publish)
+depends/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Wallet / node data / secrets (NEVER publish)
+*.dat
+wallet.dat
+*.wallet
+*.db
+*.sqlite
+*.sqlite3
+*.conf
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+*mnemonic*
+*seed*
+*secret*
